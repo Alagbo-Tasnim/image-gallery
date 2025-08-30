@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Gallery</h1>
+
+    <div class="gallery">
+        <img src="images/20240630_123427.jpg" alt="Image 1" class="gallery-item">
+        <img src="images/IMG-20250719-WA0108.jpg" alt="Image 2" class="gallery-item">
+        <img src="images/IMG-20250827-WA0022.jpg" alt="Image 3" class="gallery-item">
+        <img src="images/IMG_20240501_080824~2.jpg" alt="Image 4" class="gallery-item">
+        <img src="images/Snapchat-2090857221.jpg" alt="Image 5" class="gallery-item">
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="caption"></div>
+        <!-- Navigation -->
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
